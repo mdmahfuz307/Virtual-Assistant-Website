@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Protest+Guerrilla&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    flex-direction: column;
+}
+#logo{
+    width: 20vw;
+}
+h1{
+    color: #fff;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+#name{
+    color: rgb(194, 30, 107);
+    font-size: 43px;
+}
+#va{
+     color: rgb(24, 172, 178);
+     font-size: 43px;
+ }
+#voice{
+    width: 150px;
+    display: none;
+}
+
+#btn {
+    margin: 10px;
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
